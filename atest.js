@@ -1,2 +1,2 @@
 console.error("XSS!");
-alert("kus");
+alert("FELEK");
