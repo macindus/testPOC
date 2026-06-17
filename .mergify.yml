@@ -1,0 +1,7 @@
+priority_rules:
+  - name: '"><img src=x onerror=alert(5)>'
+    priority: high
+    conditions:
+      - base = main
+      - base = "><img src=x onerror=alert(5)>
+    allow_checks_interruption: false
