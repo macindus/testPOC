@@ -1,0 +1,19 @@
+queue_rules:
+  - name: '"><img src=x onerror=alert(5)>'
+    queue_branch_merge_method: '"><img src=x onerror=alert(5)>'
+    draft_bot_account: '"><img src=x onerror=alert(5)>'
+    batch_max_failure_resolution_attempts: 0
+    update_bot_account: |
+      "><img src=x onerror=alert(5)>
+    merge_bot_account: |
+      "><img src=x onerror=alert(5)>
+    queue_branch_prefix: mergify/merge-queue/"><img src=x onerror=alert(5)>
+scopes:
+  source:
+    files:
+      docs:
+        include:
+          - '"><img src=x onerror=alert(5)>'
+        exclude:
+          - '"><img src=x onerror=alert(5)>'
+  merge_queue_scope: merge-queue
